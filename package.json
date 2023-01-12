@@ -1,0 +1,31 @@
+{
+  "name": "djs-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run clean && tsc && node dist/main.js",
+    "clean": "rimraf dist"
+  },
+  "author": "revelcw",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "airtable": "^0.11.3",
+    "chatgpt": "^1.4.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^14",
+    "dotenv": "^8.2.0",
+    "fuse.js": "^6.6.2",
+    "glob": "^8.0.3",
+    "keyword-extractor": "^0.0.23",
+    "node-fetch": "^2.6.7",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4",
+    "util": "^0.12.5"
+  },
+  "engines": {
+    "node": "16.6"
+  }
+}
